@@ -75,3 +75,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 > INSTALL MATERIAL UI KIT FOR ICONS AND UTILITY
 
 
+#FOR BACKEND 
+
+> cd wapp-backend
+> run  npm init
+> install express and mongoose 
+>> npm i express mongoose
+> add node_modules to gitignore file 
