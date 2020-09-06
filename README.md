@@ -81,4 +81,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 > run  npm init
 > install express and mongoose 
 >> npm i express mongoose
-> add node_modules to gitignore file 
+> add node_modules to gitignore file
+> creating apis with express 
+> use postman for checking apis

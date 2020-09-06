@@ -1,5 +1,6 @@
 // importing  libraries 
-import express from 'express'
+// import express  from 'express'
+const express = require('express')
 
 
 // app config 
@@ -26,6 +27,6 @@ App.get('/' , ( req, res )=> {
 
 // listen
 
-app.listen(port , () =>{
-  console.log("Hello world");
+App.listen(port , () =>{
+  console.log("Listening to port..............");
 })
