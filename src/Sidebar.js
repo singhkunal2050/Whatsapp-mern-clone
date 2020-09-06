@@ -3,8 +3,9 @@ import './Sidebar.css'
 import ChatIcon from '@material-ui/icons/Chat';
 import DonutLargeIcon from '@material-ui/icons/DonutLarge';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import { Avatar, IconButton } from '@material-ui/core';
+import SearchOutlined from '@material-ui/icons/SearchOutlined';
 
+import { Avatar, IconButton } from '@material-ui/core';
 
 function Sidebar() {
   return (
@@ -15,7 +16,7 @@ function Sidebar() {
             <Avatar src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
           </IconButton>
         </div>
-        <div className="sidebar__headerRight  ">
+        <div className="sidebar__headerRight">
           <IconButton>
             <DonutLargeIcon />
           </IconButton>
@@ -27,6 +28,15 @@ function Sidebar() {
           </IconButton>
         </div>
       </div>
+
+      <div className="sidebar__search">
+        <div className="sidebar__searchContainer">
+        <SearchOutlined />
+        <input type="text" placeholder="search or start new chat"/>
+        </div>
+      </div>
+
+
     </div>
   )
 }
