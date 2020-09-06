@@ -5,17 +5,19 @@ import Chat from './Chat';
 
 function App() {
   return (
-    <div className="App">
-      <h1>HELLO REACT</h1>
-      {/* SIdebar component  */}
-      <Sidebar/>
-      {/* CHAt component */}
-      <Chat/>
+    <div className="app">
+      <div className="app__body">
 
+        {/* SIdebar component  */}
+        <Sidebar />
+        {/* CHAt component */}
+        <Chat />
+
+        </div>
 
     </div>
 
-);
+  );
 }
 
 export default App;
