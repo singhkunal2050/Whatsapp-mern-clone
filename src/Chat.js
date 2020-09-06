@@ -1,7 +1,7 @@
 import React from 'react'
 import './Chat.css'
-import { Avatar  , IconButton} from '@material-ui/core'
-import {SearchOutlined , AttachFile , MoreVert} from "@material-ui/icons"
+import { Avatar, IconButton } from '@material-ui/core'
+import { SearchOutlined, AttachFile, MoreVert, InsertEmoticon , Mic } from "@material-ui/icons"
 
 function Chat() {
   return (
@@ -9,7 +9,7 @@ function Chat() {
       <div className="chat__header">
         <Avatar src="https://randomuser.me/api/portraits/men/74.jpg" />
         <div className="chat__headerInfo">
-          <h3>Sachin Sonawane</h3>
+          <h3>Om Prakash</h3>
           <p>Last seen at ....</p>
         </div>
         <div className="chat__headerRight">
@@ -24,6 +24,94 @@ function Chat() {
           </IconButton>
         </div>
       </div>
+
+      <div className="chat__body">
+        <p className="chat__message">
+          <span className="chat__name">You </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+        <p className="chat__message  chat__receiver">
+          <span className="chat__name">Kunal Singh </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+        <p className="chat__message">
+          <span className="chat__name">You </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+
+        <p className="chat__message  chat__receiver">
+          <span className="chat__name">Kunal Singh </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+        <p className="chat__message">
+          <span className="chat__name">You </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+
+        <p className="chat__message  chat__receiver">
+          <span className="chat__name">Kunal Singh </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+        <p className="chat__message">
+          <span className="chat__name">You </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+
+        <p className="chat__message  chat__receiver">
+          <span className="chat__name">Kunal Singh </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+        <p className="chat__message">
+          <span className="chat__name">You </span>
+          Thus is the message
+          <span className="chat__timestamp">
+            {Date().toString().substr(19, 6)} PM
+          </span>
+        </p>
+
+      </div>
+
+      <div className="chat__footer">
+        <InsertEmoticon />
+        <form>
+          <input placeholder="Type a message..." type="text" />
+          <button onClick={null} type="submit"> Send Message</button>
+        </form>
+        <Mic />
+      </div>
+
     </div>
   )
 }
