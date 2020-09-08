@@ -78,9 +78,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 #FOR BACKEND 
 
 > cd wapp-backend
+
 > run  npm init
+
 > install express and mongoose 
->> npm i express mongoose
+
+> npm i express mongoose
+
 > add node_modules to gitignore file
+
 > creating apis with express 
+
 > use postman for checking apis
+
+> mongo db create cluster 
+
+> create user 
+
+> edit network access and add ur ip
+
